@@ -1,5 +1,5 @@
 # Image_Zooming
-A python script for viewing pixel information of a particulat selected region of an image
+A python script for viewing pixel information of a particular selected region of an image.
 
 # Sample Image
 <html>
