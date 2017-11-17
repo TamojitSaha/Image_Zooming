@@ -3,7 +3,7 @@ A python script for viewing pixel information of a particulat selected region of
 
 # Sample Image
 <html>
-<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/image.png" width="350" height="350">
+<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/image.png" width="320" height="320">
 </html>
 
 # Output Image
