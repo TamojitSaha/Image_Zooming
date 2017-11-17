@@ -22,25 +22,3 @@ for i in range(0,8,1):
     m,n = shape(slc)
     plt.imsave('plane_'+str(i)+'.jpg',slc,cmap='gray', format='jpg')
     slc = zeros(m*n)
-
-#slc  = channel & pow(2, 1)
-#plt.imsave('plane_'+str(1)+'.jpg',slc, format='jpg')
-#
-#slc  = channel & pow(2, 2)
-#plt.imsave('plane_'+str(2)+'.jpg',slc, format='jpg')
-#
-#slc  = channel & pow(2, 3)
-#plt.imsave('plane_'+str(3)+'.jpg',slc, format='jpg')
-#
-#
-#slc  = channel & pow(2, 4)
-#plt.imsave('plane_'+str(4)+'.jpg',slc, format='jpg')
-#
-#slc  = channel & pow(2, 5)
-#plt.imsave('plane_'+str(5)+'.jpg',slc, format='jpg')
-#
-#slc  = channel & pow(2, 6)
-#plt.imsave('plane_'+str(6)+'.jpg',slc, format='jpg')
-#
-#slc  = channel & pow(2, 7)
-#plt.imsave('plane_'+str(7)+'.jpg',slc, format='jpg')
