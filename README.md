@@ -8,15 +8,29 @@
 ## Introduction
 [![Build Platforms](https://img.shields.io/badge/build_platform-python-3776ab.svg)](https://www.visualstudio.com/vs/)
 [![Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors)
+[![Dependent library](https://img.shields.io/badge/dependent_library-mpl__toolkits-ff7f0e.svg)](https://matplotlib.org/mpl_toolkits/index.html)
 
-A python script for viewing pixel information of a particular selected region in an image. It can used in object tracking where the object has multiple colour present. Its application also lies in detection of counterfiet products. In other words, this tool can be used for analysis 
+A python script for viewing pixel information of a particular selected region in an image. It can used in object tracking where the object has multiple colour present. Its application also lies in detection of counterfiet logo or lables used in various products.
+<br><br>
+**Code snippet**
+```python
+axins = zoomed_inset_axes(ax1, 9, loc=1) # zoom = 6
+axins = plt.axes([1, 1, 1, 1])
+axins.imshow(img, extent = [5,500,250,785],origin="upper",aspect='auto',interpolation="none")
 
-<p align="center"> <b>Input Image</b>
-<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/image.png" width="320" height="320">
-</p>
+```
+```zoomed_inset_axes()``` can be used when you want the inset represents the zoom-up of the small portion in the parent axes. And ```mpl_toolkits/axes_grid/inset_locator``` provides a helper function ```mark_inset()``` to mark the location of the area represented by the inset axes
 
-<p align="center"><b>Output Image</b>
-<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/pixelated.png" width="350" height="350">
+
+<p align="center"> 
+<h3>Input Image</h3>
+<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/image.png" width="280" height="280">
+</p><br>
+
+
+<p align="center">
+<h3>Output Image</h3>
+<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/pixelated.png" width="280" height="280">
 </p>
 
 
