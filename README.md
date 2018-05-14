@@ -24,7 +24,7 @@ axins.imshow(img, extent = [5,500,250,785],origin="upper",aspect='auto',interpol
 
 <p align="center"> 
 <h3>Input Image</h3>
-<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/image.png" width="280" height="280">
+<img src ="https://raw.githubusercontent.com/TamojitSaha/Image_Zooming/master/image.png" width="260" height="260">
 </p><br>
 
 
